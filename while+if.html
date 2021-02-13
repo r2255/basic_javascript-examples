@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>while+if</title>
+</head>
+<body>
+
+
+<script>
+var sayi = prompt("Bir sayi giriniz: ");
+sayi = parseInt(sayi);
+document.write("Girilen sayi: " + sayi + "<BR>");
+var sayac = 1;
+while(sayac <= sayi){
+if(sayac % 2 == 0){
+if(sayac % 3 == 0){
+document.write(sayac + ". ");
+}
+}
+sayac++;
+}
+</script>
+
+
+</body>
+</html>

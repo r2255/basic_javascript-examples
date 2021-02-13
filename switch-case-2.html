@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>switch-case-2</title>
+</head>
+<body>
+
+
+<script>
+var sehir = prompt("Şehrinizi giriniz: ");
+switch(sehir){
+case "ORDU":
+case "ordu":
+document.write("Girilen il: " + sehir + ". ");
+document.write("Plaka Kodu: " + 52);
+break;
+case "İSTANBUL":
+case "istanbul":
+document.write("Girilen il: " + sehir + ". ");
+document.write("Plaka Kodu: " + 34);
+break;
+case "İZMİR":
+case "izmir":
+document.write("Girilen il: " + sehir + ". ");
+document.write("Plaka Kodu: " + 35);
+break;
+case "ANKARA":
+case "ankara":
+document.write("Girilen il: " + sehir + ". ");
+document.write("Plaka Kodu: " + 06);
+break;
+default:
+document.write("Girilen il: " + sehir + ". ");
+document.write("Girilen il sistemde kayıtlı değildir!");
+}
+
+</script>
+
+
+</body>
+</html>

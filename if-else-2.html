@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>else if</title>
+</head>
+<body>
+
+
+<script>
+var vize = prompt("Vize notunuz:");
+var fnal = prompt("Final notunuz:");
+vize = parseInt(vize);
+fnal = parseInt(fnal);
+var sonuc = (vize * 0.6) + (fnal * 0.4);
+document.write("Vize: " + vize + " ");
+document.write("Final: " + fnal + " ");
+document.write("Sonuç: " + sonuc + " ");
+if(sonuc < 25){
+document.write("FF");
+}else if (sonuc >= 25 && sonuc < 30){
+document.write("FD");
+} else if (sonuc >= 30 && sonuc < 35){
+document.write("DD");
+} else if (sonuc >= 35 && sonuc < 45){
+document.write("DC");
+} else if (sonuc >=45 && sonuc < 55){
+document.write("CC");
+} else if (sonuc >= 55 && sonuc < 65){
+document.write("CB");
+} else if (sonuc >=65 && sonuc < 75){
+document.write("BB");
+} else if(sonuc >=75 && sonuc < 85){
+document.write("BA");
+} else{
+document.write("AA");
+}
+
+</script>
+
+
+</body>

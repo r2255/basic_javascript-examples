@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>if else yapisi</title>
+</head>
+<body>
+
+
+<script>
+		// kullanicidan degerleri alalım.
+var vize = prompt("Vize notunuz:");
+var fnal = prompt("Final notunuz:");
+// tip donusumu yapalım.
+vize = parseInt(vize);
+fnal = parseInt(fnal);
+// girilen notları hesaplayalim.
+var sonuc = (vize * 0.6) + (fnal * 0.4);
+// degerleri ekrana yazdıralim
+document.write("Vize: " + vize + " ");
+document.write("Final: " + fnal + " ");
+document.write("Sonuç: " + sonuc + " ");
+/*
+gecti/kaldi durumunu if-else ile kontrol edelim
+50
+ve durumu ekrana yazdiralim
+ */
+if(sonuc < 60){
+document.write("Kaldınız!");
+}else {
+document.write("Geçtiniz!");
+}
+
+
+</script>
+
+
+</body>
+</html>
